@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CubeBrain", "CubeBrain\CubeBrain.cproj", "{6F49644B-7B3E-4A2E-AB5D-BE32ECB9C1DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81F06C11-211D-4E4E-BDC3-8FC970FC8937} = {81F06C11-211D-4E4E-BDC3-8FC970FC8937}
+		{E528A2D8-1344-4ED4-8B21-512B4DCFA547} = {E528A2D8-1344-4ED4-8B21-512B4DCFA547}
+	EndProjectSection
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Communication", "Communication\Communication.cproj", "{E528A2D8-1344-4ED4-8B21-512B4DCFA547}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "EEPROM", "EEPROM\EEPROM.cproj", "{81F06C11-211D-4E4E-BDC3-8FC970FC8937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F49644B-7B3E-4A2E-AB5D-BE32ECB9C1DC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{6F49644B-7B3E-4A2E-AB5D-BE32ECB9C1DC}.Debug|AVR.Build.0 = Debug|AVR
+		{6F49644B-7B3E-4A2E-AB5D-BE32ECB9C1DC}.Release|AVR.ActiveCfg = Release|AVR
+		{6F49644B-7B3E-4A2E-AB5D-BE32ECB9C1DC}.Release|AVR.Build.0 = Release|AVR
+		{E528A2D8-1344-4ED4-8B21-512B4DCFA547}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E528A2D8-1344-4ED4-8B21-512B4DCFA547}.Debug|AVR.Build.0 = Debug|AVR
+		{E528A2D8-1344-4ED4-8B21-512B4DCFA547}.Release|AVR.ActiveCfg = Release|AVR
+		{E528A2D8-1344-4ED4-8B21-512B4DCFA547}.Release|AVR.Build.0 = Release|AVR
+		{81F06C11-211D-4E4E-BDC3-8FC970FC8937}.Debug|AVR.ActiveCfg = Debug|AVR
+		{81F06C11-211D-4E4E-BDC3-8FC970FC8937}.Debug|AVR.Build.0 = Debug|AVR
+		{81F06C11-211D-4E4E-BDC3-8FC970FC8937}.Release|AVR.ActiveCfg = Release|AVR
+		{81F06C11-211D-4E4E-BDC3-8FC970FC8937}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
